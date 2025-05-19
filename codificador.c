@@ -7,7 +7,7 @@
 #define MAX_COLUNAS 768
 
 int linhas, colunas;
-int matriz[MAX_LINHAS][MAX_COLUNAS]; // definindo pra n der b.o
+int matriz[MAX_LINHAS][MAX_COLUNAS];
 
 //* Assinatura das funções (Logo abaixo na parte do corpo das funções está a explicação delas e dos seus respectivos parâmetros)
 bool verificarMatrizHomogenea(int matriz[MAX_LINHAS][MAX_COLUNAS], int linhaInicio, int linhaFim, int colunaInicio, int colunaFim);
